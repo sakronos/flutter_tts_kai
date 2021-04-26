@@ -1,4 +1,4 @@
-# Text To Speech
+# Text To Speech KAI
 
 Make a small change to enable this plugin to rebind to TTS engine (Android). Low-memory devices Friendly.
 
