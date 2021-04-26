@@ -1,13 +1,13 @@
 # Text To Speech
 
-Make a little change to enable this plugin rebound to tts engine. Low-memory devices Friendly.
+Make a little change to enable this plugin rebound to tts engine (Android). Low-memory devices Friendly.
 
 Origin: https://github.com/dlutton/flutter_tts
 
 A flutter text to speech plugin (Swift,Java)
 
 # Modification
-## re-bound to TTS engine
+## re-bound to TTS engine (Android)
 ```dart
 flutterTts = FlutterTts();
 await flutterTts.reinitialTextToSpeech();
