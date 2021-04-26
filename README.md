@@ -1,44 +1,17 @@
 # Text To Speech
 
-[![pub package](https://img.shields.io/pub/v/flutter_tts.svg?style=for-the-badge&colorB=green)](https://pub.dartlang.org/packages/flutter_tts)
+Make a little change to enable this plugin rebound to tts engine. Low-memory devices Friendly.
+
+Origin: https://github.com/dlutton/flutter_tts
 
 A flutter text to speech plugin (Swift,Java)
 
-## Compatibility Status
-
-[![Latest compatibility result for Stable channel](https://img.shields.io/endpoint?url=https://pub.green/packages/flutter_tts/badge?channel=stable)](https://pub.green/packages/flutter_tts)
-
-[![Latest compatibility result for Beta channel](https://img.shields.io/endpoint?url=https://pub.green/packages/flutter_tts/badge?channel=beta)](https://pub.green/packages/flutter_tts)
-
-[![Latest compatibility result for Dev channel](https://img.shields.io/endpoint?url=https://pub.green/packages/flutter_tts/badge?channel=dev)](https://pub.green/packages/flutter_tts)
-
-## Features
-
-- [x] Android, iOS, Web, & macOS
-  - [x] speak
-  - [x] stop
-  - [x] get languages
-  - [x] set language
-  - [x] set speech rate
-  - [x] set speech volume
-  - [x] set speech pitch
-  - [x] is language available
-- [x] Android, iOS
-  - [x] get voices
-  - [x] set voice
-  - [x] speech marks (requires iOS 7+ and Android 26+)
-  - [x] synthesize to file (requires iOS 13+)
-- [x] iOS, Web
-  - [x] pause
-- [x] Android
-  - [x] set silence
-  - [x] is lanaguage installed
-  - [x] are languages installed
-  - [x] get engines
-  - [x] set queue mode
-- [x] iOS
-  - [x] set shared instance
-  - [x] set audio session category
+# Modification
+## re-bound to TTS engine
+```dart
+flutterTts = FlutterTts();
+await flutterTts.reinitialTextToSpeech();
+```
 
 ## Usage
 
