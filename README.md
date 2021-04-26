@@ -1,6 +1,6 @@
 # Text To Speech
 
-Make a little change to enable this plugin rebound to tts engine (Android). Low-memory devices Friendly.
+Make a small change to enable this plugin to rebind to TTS engine (Android). Low-memory devices Friendly.
 
 Origin: https://github.com/dlutton/flutter_tts
 
